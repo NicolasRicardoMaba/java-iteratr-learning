@@ -1,9 +1,10 @@
-package com.iteratrlearning.shu_book.chapter_02;
+package com.iteratrlearning.shu_book;
 
 import java.util.List;
 
 public interface BankStatementParser {
 	BankTransaction parseFrom(String line);
+
 	List<BankTransaction> parseLinesFrom(List<String> lines);
-	
+
 }
